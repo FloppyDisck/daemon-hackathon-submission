@@ -1,0 +1,1 @@
+sui move build --lint  --warnings-are-errors --doc

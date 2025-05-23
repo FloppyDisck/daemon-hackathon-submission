@@ -1,0 +1,37 @@
+{
+  "mainnet": {
+    "rpc": "https://sui-rpc.publicnode.com",
+    "keys": [
+      "admin"
+    ],
+    "deployment": null
+  },
+  "testnet": {
+    "rpc": "https://fullnode.testnet.sui.io:443",
+    "keys": [
+      "admin"
+    ],
+    "deployment": {
+      "package": "0x46db1957d5c4107aa4df66f39db218903b74a0b1346bc1a2dee9a486896c6803",
+      "admin_cap": "0xbb9323f084fbc13a4136f4cb7dc72beb09684383f20a22bf1c4a9c2945645dc5",
+      "registry": "0xb03522c67576ac48c54992fd4de6b69fc9f0e216069c67e925803e2737f20666",
+      "monster_minter": "0xecabd38465adf2e0a9379bec520200feeb14a159a01ee5b7885790a74fe6ddc3",
+      "drive_minter": "0x47a194a52f050829863fdfb3114bd93cfbd2ec11a1a995453aff6b8ef9564abf",
+      "distribution_table": "0x8c74a0c8b828ef4c37909cee2c8c2e1275501cc9591776947a92d470fbb84d96"
+    }
+  },
+  "localnet": {
+    "rpc": "http://127.0.0.1:9000",
+    "keys": [
+      "admin"
+    ],
+    "deployment": {
+      "package": "0x2e63e73e1590847d1781f26f47db4eb598dbabb2c53832116dc2e4abaa36bef9",
+      "admin_cap": "0xc67f50a8cfc8a1beae21f5a8e96c3467a73f5ed399a8ae4ff73e5103eb298de2",
+      "registry": "0x038afe60cee8af51219fb63e1fbd20fe51f1d6ff2245278b1e64021d25b68e7c",
+      "monster_minter": "0x9743b59cd18cc0b01dce71cd1c75818901d5bb1fc03697141cfb33e4278c837a",
+      "drive_minter": "0x3bf25b993cbf0890e9e3772bc8d5323dbfb52d7ad79f30d5ce777d7c82aeb004",
+      "distribution_table": "0xc5df75c614040bfcd7f2dd529e48bc703f304be3eb986c3a4350f595bd561767"
+    }
+  }
+}

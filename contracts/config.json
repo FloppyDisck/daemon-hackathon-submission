@@ -1,0 +1,23 @@
+{
+  "mainnet": {
+    "rpc": "https://sui-rpc.publicnode.com",
+    "keys": [
+      "admin"
+    ],
+    "deployment": null
+  },
+  "testnet": {
+    "rpc": "https://fullnode.testnet.sui.io:443",
+    "keys": [
+      "admin"
+    ],
+    "deployment": null
+  },
+  "localnet": {
+    "rpc": "http://127.0.0.1:9000",
+    "keys": [
+      "admin"
+    ],
+    "deployment": null
+  }
+}
